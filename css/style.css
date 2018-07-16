@@ -1,0 +1,35 @@
+.animation {
+    border: 10px solid;
+    margin-left: 60px;
+    width: 1215px;
+    height: 306px;
+}
+.html_animation{
+    width: 100px;
+    height: 90px;
+    border: 8px dotted;
+    background-color: red;
+    animation-name: test;
+    animation-duration: 10s; 
+    -webkit-animation-name: test;
+    -webkit-animation-duration: 10s;
+    -moz-animation-name: test;
+    -moz-animation-duration: 10s;
+    -o-animation-name: test; 
+    -o-animation-duration: 10s;
+    position: relative;
+}
+@keyframes test {
+    0%   {background-color:red; left:0px; top:0px;}
+    10%  {background-color:yellow; left:200px; top:200px;}
+    20%  {background-color:blue; left:300px; top:0px;}
+    30%  {background-color:green; left:400px; top:200px;}
+    40%  {background-color:red; left:500px; top:0px;}
+    50%  {background-color:green; left:600px; top:200px;}
+    60%  {background-color:gray; left:700px; top:0px;}
+    70%  {background-color:orange; left:800px; top:200px;}
+    80%  {background-color:purple; left:900px; top:0px;}
+    90%  {background-color:white; left:1000px; top:200px;}
+    100% {background-color:black; left:1100px; top:0px;}
+
+}
